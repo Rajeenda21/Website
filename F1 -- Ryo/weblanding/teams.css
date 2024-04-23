@@ -1,0 +1,116 @@
+:root {
+    --primary: #FF0000;
+    --bg: #ffff;
+  }
+  
+  *{
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+  
+  body {
+    color: #fff;
+    background-color: #fff;
+    background-image: ();
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color:var(--primary);
+    border-bottom: 1, 7px solid #010100;
+    top: 0;
+    left: 0;
+    right: 0;z-index: 99999;
+    margin-top: 3rem;
+  }
+  .navbar .navbar-judul {
+    color: #010100;
+    font-size: 3rem;
+  }
+  
+  
+  .navbar .navbar-nav h3,a{
+    display: inline-block;
+    margin: 0 1rem;
+    color: #fff;
+    font-size: 1.7rem;
+    margin-left: 2rem;
+  }
+  
+  .navbar .navbar-nav a:hover {
+    color: #010100;
+  }
+  
+  
+  .navbar-start {
+    text-align: end;
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .navbar-start .navbar-item .login {
+    background-color: var(--primary);
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
+  }
+
+  .hero .row {
+    margin-top: 10rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center; /* Tambahkan align-items: center untuk pusatkan vertikal */
+}
+
+.hero .row img {
+    border-radius: 30px;
+    margin-right: 2rem;
+}
+
+.hero .row p {
+    color: #010100;
+    font-size: 2rem;
+    margin: 5rem;
+    max-width: 600px;
+}
+
+.teams ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.teams li {
+    list-style: none;
+    margin: 2rem;
+    color: #000;
+    text-align: left;
+    width: 300px; /* Sesuaikan lebar item */
+}
+
+.teams img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.teams h2 {
+    font-size: 1.5rem; /* Sesuaikan ukuran font */
+}
+
+.teams p {
+    font-size: 1rem; /* Sesuaikan ukuran font */
+}

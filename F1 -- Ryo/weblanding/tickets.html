@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>|| Ryo - Buy Tickets</title>
+    <link rel="stylesheet" href="tickets.css" />
+</head>
+<body>
+    <div class="navbar-start">
+        <div class="navbar-item">
+            <a href="tickets.html" style="color: #010101">Tickets</a>
+            <a href="Login.html" style="color: #010101" class="login">Login</a>
+        </div>
+        <div class="navbar">
+            <img class="navbar-judul" src="Screenshot 2023-11-05 091925.png" width="130px" />
+            <div class="navbar-nav" style="font-size: 3rem">
+                <h3><a href="index.html">Home</a></h3>
+                <h3><a href="Schedule.html" class="active">Schedule</a></h3>
+                <h3><a href="drivers.html">Drivers</a></h3>
+                <h3><a href="Teams.html">Teams</a></h3>
+            </div>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="row">
+            <div class="hero">
+                <div class="row">
+                    <img src="Las Vegas.avif" alt="Las Vegas Grand Prix" />
+                    <p>
+                        <strong>Race details</strong><br>
+                        <strong>Date:</strong> Sun, 19 Nov, 13.00<br>
+                        <strong>Track:</strong> Las Vegas Street Circuit<br><br>
+                    </p>
+                </div>
+            </div>
+          
+            <div class="hero">
+              <div class="row">
+                <img src="abu.avif" alt="Abu Dhabi Grand Prix" />
+                <p>
+                    <strong>Race details</strong><br>
+                    <strong>Date:</strong> Sun, 26 Nov, 13.00<br>
+                    <strong>Track:</strong> Yas Marina Circuit<br><br>
+        
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ticket-section">
+        <h2>Buy Tickets</h2>
+        <form action="process_ticket.php" method="post">
+            <label for="race-option">Select Race:</label>
+            <select id="race-option" name="race-option" required>
+                <option value="las-vegas">Las Vegas Grand Prix</option>
+                <option value="abu-dhabi">Abu Dhabi Grand Prix</option>
+            </select>
+    
+            <label for="ticket-type">Ticket Type:</label>
+            <select id="ticket-type" name="ticket-type" required>
+                <option value="general">General Admission</option>
+                <option value="vip">VIP Access</option>
+            </select>
+    
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+    
+            <h3><a href="tiketdigital.html">Purchase</a></h3>
+        </form>
+    </div>
+</body>
+</html>
