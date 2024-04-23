@@ -1,0 +1,135 @@
+:root {
+    --primary: #FF0000;
+    --bg: #ffff;
+  }
+  
+  *{
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+  
+  body {
+    color: #fff;
+    background-color: #fff;
+    background-image: ();
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color:var(--primary);
+    border-bottom: 1, 7px solid #010100;
+    top: 0;
+    left: 0;
+    right: 0;z-index: 99999;
+    margin-top: 3rem;
+  }
+  .navbar .navbar-judul {
+    color: #010100;
+    font-size: 3rem;
+  }
+  
+  
+  .navbar .navbar-nav h3,a{
+    display: inline-block;
+    margin: 0 1rem;
+    color: #fff;
+    font-size: 1.7rem;
+    margin-left: 2rem;
+  }
+  
+  .navbar .navbar-nav a:hover {
+    color: #010100;
+  }
+  
+  
+  .navbar-start {
+    text-align: end;
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .navbar-start .navbar-item .login {
+    background-color: var(--primary);
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
+  }
+  .hero .row {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column; /* Mengubah orientasi menjadi kolom */
+    align-items: center; /* Pusatkan elemen secara horizontal */
+    text-align: center;
+}
+
+.hero .row img {
+    border-radius: 30px;
+    max-width: 100%;
+    margin-bottom: 1rem; /* Berikan sedikit jarak antara gambar dan teks */
+}
+
+.hero .row p {
+    color: #010100;
+    font-size: 2rem;
+    margin: 1rem; /* Berikan sedikit jarak pada paragraf */
+}
+
+.ticket-section {
+    margin: 5rem;
+    padding: 2rem;
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+
+.ticket-section h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ticket-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ticket-section label {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.ticket-section select,
+.ticket-section input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #010100;
+}
+
+.ticket-section button {
+    background-color: #fff;
+    color: var(--primary);
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ticket-section button:hover {
+    background-color: var(--primary);
+    color: #fff;
+}
